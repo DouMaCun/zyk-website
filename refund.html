@@ -19,6 +19,16 @@
         <a href="./index.html#settlement">结算分账</a>
         <a href="./index.html#contact">联系我们</a>
       </nav>
+      <div class="auth-actions" data-auth-actions>
+        <div class="auth-guest" data-auth-guest>
+          <button class="auth-link" type="button" data-auth-open="login">登录</button>
+          <button class="button button-primary auth-register" type="button" data-auth-open="register">注册</button>
+        </div>
+        <div class="auth-user" data-auth-user hidden>
+          <span data-auth-name></span>
+          <button class="auth-link" type="button" data-auth-logout>退出</button>
+        </div>
+      </div>
     </header>
     <main class="policy-main">
       <article class="policy-article">
@@ -43,5 +53,6 @@
         </section>
       </article>
     </main>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
